@@ -1,0 +1,14 @@
+{
+  "name": "hermes-desktop-accent-picker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OKLCH accent colour picker for the Hermes Desktop status bar — a theme-authoring tool that retints the whole app live.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/plugin.tsx --bundle --format=esm --platform=browser --jsx=automatic --external:@hermes/plugin-sdk --external:react --external:react/jsx-runtime --outfile=plugin.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.8"
+  }
+}
