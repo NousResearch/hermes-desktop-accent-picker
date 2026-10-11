@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repo has moved.** The plugin now lives in [`NousResearch/hermes-official-plugins/accent-picker`](https://github.com/NousResearch/hermes-official-plugins/tree/main/accent-picker), the single repo for Nous's official Hermes plugins. Its history, open issues and pull requests went with it, and this repo is archived.
+>
+> Already installed? `hermes plugins update` moves you to the new home automatically. New install: `hermes plugins install` from the plugin catalog.
+
 # Accent Picker — Hermes Desktop plugin
 
 An OKLCH colour wheel in the Hermes Desktop status bar. Drag it and the whole
